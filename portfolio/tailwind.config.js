@@ -8,7 +8,8 @@ export default {
     theme: {
         extend: {},
         fontFamily: {
-            'sora': ['Sora']
+            'sora': ['Sora'],
+            'raleway': ['Raleway']
         }
     },
     plugins: [],
