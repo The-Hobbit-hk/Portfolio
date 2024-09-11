@@ -19,7 +19,7 @@ function Header() {
 
     return (
         <>
-            <nav className='flex justify-between p-5 sm:px-20 items-center font-sora'>
+            <nav className='flex justify-between p-5 sm:px-40 items-center font-sora'>
                 <div className='flex items-center gap-5'>
                     <img src="/profile.jpg" alt="Profile Picture" width='100px' className='aspect-square object-cover rounded-full sm:w-[100px] w-[60px]' />
                     <div>
@@ -32,23 +32,23 @@ function Header() {
                     </div>
                 </div>
                 <div className='space-x-3 lg:flex items-center hidden'>
-                    <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#7f8082] hover:bg-black/10 dark:hover:bg-white/10'>
+                    <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
                         Home
                     </a>
-                    <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#7f8082] hover:bg-black/10 dark:hover:bg-white/10'>
+                    <a href="#exp" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
                         Experience
                     </a>
-                    <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#7f8082] hover:bg-black/10 dark:hover:bg-white/10'>
+                    <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
                         Projects
                     </a>
                     <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
-                        <FaLinkedinIn className='text-lg text-neutral-700 dark:text-[#7f8082] dark:group-hover:text-[#eeeeee] ' />
+                        <FaLinkedinIn className='text-lg text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] ' />
                     </div>
                     <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
-                        <FaGithub className='text-neutral-700 dark:text-[#7f8082] dark:group-hover:text-[#eeeeee] text-lg' />
+                        <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
                     </div>
                     <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer' onClick={handleThemeChange}>
-                        <MdOutlineDarkMode className='text-neutral-700 dark:text-[#7f8082] dark:group-hover:text-[#eeeeee] text-xl' />
+                        <MdOutlineDarkMode className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-xl' />
                     </div>
                 </div>
                 <div className='lg:hidden'>

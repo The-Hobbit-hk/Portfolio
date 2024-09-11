@@ -1,12 +1,13 @@
 import React from 'react'
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import Experience from './Experience';
+import Projects from './Projects';
 
 function Home() {
     return (
         <>
-            <div className='sm:px-20 p-5 font-raleway text-left sm:mt-5 dark:text-neutral-200 text-neutral-700'>
+            <div className='sm:px-40 p-5 text-left sm:mt-5 dark:text-neutral-200 text-[#343434]'>
                 <div>
-                    <h2 className='sm:text-4xl text-3xl font-[600] mb-2'>
+                    <h2 className='sm:text-3xl text-2xl font-[600] mb-2'>
                         About
                     </h2>
                     <p className='dark:text-neutral-200 text-neutral-700'>
@@ -14,7 +15,7 @@ function Home() {
                     </p>
                 </div>
                 <div className='mt-10'>
-                    <h2 className='sm:text-4xl text-3xl font-[600] mb-2'>
+                    <h2 className='sm:text-3xl text-2xl font-[600] mb-2'>
                         Technical Skills
                     </h2>
                     <div className='grid md:grid-cols-6 grid-cols-3 items-center text-center justify-items-start'>
@@ -45,10 +46,16 @@ function Home() {
                     </div>
                 </div>
                 <div className='grid animate-bounce text-center mt-20 justify-center'>
-                    <span class="material-symbols-outlined p-3 text-neutral-500 border rounded-full dark:border-neutral-700 border-neutral-300">
-                        keyboard_arrow_down
-                    </span>
+                    <a href="#exp">
+                        <span class="material-symbols-outlined p-3 text-neutral-500 border rounded-full dark:border-neutral-700 border-neutral-300 cursor-pointer">
+                            keyboard_arrow_down
+                        </span>
+                    </a>
                 </div>
+                {/* Experience */}
+                <Experience />
+                {/* Projects */}
+                <Projects />
             </div>
         </>
     )
