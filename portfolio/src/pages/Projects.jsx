@@ -3,13 +3,13 @@ import React from 'react'
 function Projects() {
     return ( 
         <>
-            <div className='mt-16' id='exp'>
-                <h2 className='sm:text-3xl text-2xl font-[600] mb-4'>
+            <div className='py-8' id='exp'>
+                <h2 className='sm:text-3xl text-2xl font-[600] mb-4 md:text-left text-center'>
                     Projects
                 </h2>
-                <div className='grid 2xl:grid-cols-3 gap-5'>
+                <div className='grid lg:grid-cols-3 gap-5'>
                     <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#282828] flex flex-col gap-5'>
-                        <img src="movie-watchlist.png" alt="Movie Watchlist" width='100%' className='rounded-xl h-[180px]' />
+                        <img src="movie-watchlist.png" alt="Movie Watchlist" width='100%' className='rounded-xl w-[100%]' />
                         <div className='flex justify-between items-center'>
                             <div>
                                 <p className='text-xl font-[600]'>Movie Watchlist</p>
@@ -25,22 +25,21 @@ function Projects() {
                         </div>
                         <div>
                             <p>Tech Stack</p>
-                            <div className='mt-1 flex gap-3'>
-                                <img src="reactjs.png" alt="React JS" width='30px' />
-                                <img src="redux-toolkit.png" alt="Redux Toolkit" width='30px' />
-                                <img src="js.png" alt="Javascript" width='30px' />
-                                <img src="firebase.png" alt="Firebase" width='30px' />
-                                <img src="tailwind.png" alt="Tailwind" width='30px' />
-                                <img src="html.png" alt="HTML" width='30px' />
-                                <img src="css.png" alt="CSS" width='30px' />
+                            <div className='mt-1 flex gap-2 flex-wrap *:bg-white/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                                <div><p>React JS</p></div>
+                                <div><p>Redux</p></div>
+                                <div><p>Javascript</p></div>
+                                <div><p>Tailwind CSS</p></div>
+                                <div><p>HTML</p></div>
+                                <div><p>CSS</p></div>
                             </div>
                             <p className='mt-5'>
-                            Developed a movie watchlist app using React JS, Redux Toolkit, Tailwind CSS, Firebase, and the OMDB API. Boosted user engagement by 20% with search functionality and personalized watchlists. Improved app functionality by 25% and enhanced performance with Firebase, reducing data retrieval time by 30%. Efficient state management and seamless email-based login were achieved using Redux Toolkit.
+                            Developed a movie watchlist app where users can create and remove watchlists, add or remove movies, and search for any movie.
                             </p>
                         </div>
                     </div>
                     <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#282828] flex flex-col gap-5'>
-                        <img src="oneshop.png" alt="Oneshop" width='100%' className='rounded-xl h-[180px]' />
+                        <img src="oneshop.png" alt="Oneshop" width='100%' className='rounded-xl w-[100%]' />
                         <div className='flex justify-between items-center'>
                             <div>
                                 <p className='text-xl font-[600]'>Oneshop</p>
@@ -56,19 +55,19 @@ function Projects() {
                         </div>
                         <div>
                             <p>Tech Stack</p>
-                            <div className='mt-1 flex gap-3'>
-                                <img src="js.png" alt="Javascript" width='30px' />
-                                <img src="tailwind.png" alt="Tailwind" width='30px' />
-                                <img src="html.png" alt="HTML" width='30px' />
-                                <img src="css.png" alt="CSS" width='30px' />
+                            <div className='mt-1 flex gap-2 flex-wrap *:bg-white/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                                <div><p>Javascript</p></div>
+                                <div><p>Tailwind CSS</p></div>
+                                <div><p>HTML</p></div>
+                                <div><p>CSS</p></div>
                             </div>
                             <p className='mt-5'>
-                            Developed an e-commerce website with a clean, intuitive UI optimized for all devices. Implemented key features like special offers, order management, and personalized user experiences. Enhanced navigation with intuitive menu options and a comprehensive profile section, leading to a 50-60% increase in usability and engagement.
+                            Developed an e-commerce website with a clean, responsive UI, featuring special offers, order management, and personalized user experiences.
                             </p>
                         </div>
                     </div>
                     <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#282828] flex flex-col gap-5'>
-                        <img src="oneshop.png" alt="Oneshop" width='100%' className='rounded-xl h-[180px]' />
+                        <img src="oneshop.png" alt="Oneshop" width='100%' className='rounded-xl w-[100%]' />
                         <div className='flex justify-between items-center'>
                             <div>
                                 <p className='text-xl font-[600]'>NoteIt</p>
@@ -77,16 +76,16 @@ function Projects() {
                         </div>
                         <div>
                             <p>Tech Stack</p>
-                            <div className='mt-1 flex gap-3'>
-                                <img src="php.png" alt="PHP" width='30px' />
-                                <img src="js.png" alt="Javascript" width='30px' />
-                                <img src="bootstrap.png" alt="Bootstrap" width='30px' />
-                                <img src="html.png" alt="HTML" width='30px' />
-                                <img src="css.png" alt="CSS" width='30px' />
-                                <img src="mysql.png" alt="Mysql" width='30px' />
+                            <div className='mt-1 flex gap-2 flex-wrap *:bg-white/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                                <div><p>PHP</p></div>
+                                <div><p>Javascript</p></div>
+                                <div><p>Bootstrap</p></div>
+                                <div><p>MySQL</p></div>
+                                <div><p>HTML</p></div>
+                                <div><p>CSS</p></div>
                             </div>
                             <p className='mt-5'>
-                            Developed a frontend interface using HTML, CSS, and Bootstrap, backed by PHP and MySQL for secure, efficient data access, reducing frontend loading time by 30-40%. Streamlined login/signup for personalized notes, to-dos, and event planning features. Enhanced user experience with an in-built calculator and categorized notes, reducing app switching by 20%.
+                            Developed a notes app with features for creating and managing notes, organizing to-dos, and event planning, along with additional in-built tools.
                             </p>
                         </div>
                     </div>

@@ -6,3 +6,39 @@
 .theme-transition {
     @apply transition-colors duration-300;
 }
+
+.skill-react:hover img {
+    filter: drop-shadow(0 0 5px #61dafbaa);
+}
+
+.skill-redux:hover img {
+    filter: drop-shadow(0 0 5px #7749bb);
+}
+
+.skill-javascript:hover img {
+    filter: drop-shadow(0 0 5px #ffd600);
+}
+
+.skill-html:hover img {
+    filter: drop-shadow(0 0 5px #ea7e01);
+}
+
+.skill-css:hover img {
+    filter: drop-shadow(0 0 5px #047edb);
+}
+
+.skill-bootstrap:hover img {
+    filter: drop-shadow(0 0 5px #7010f5);
+}
+
+.skill-tailwind:hover img {
+    filter: drop-shadow(0 0 5px #00acc1);
+}
+
+.skill-firebase:hover img {
+    filter: drop-shadow(0 0 5px #ffa000);
+}
+
+.skill-mysql:hover img {
+    filter: drop-shadow(0 0 5px #00608c);
+}
