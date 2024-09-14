@@ -26,7 +26,7 @@ function Homepage() {
                         </div>
                     </div>
                     <div>
-                        <div className='md:grid xl:grid-cols-3 sm:grid-cols-2 gap-3 *:bg-[#E9E9E9] *:dark:bg-[#282828] *:rounded-xl *:flex *:items-center *:w-[100%] *:h-[100%] *:sm:justify-center *:justify-between *:px-5 *:transition-all *:duration-300 hidden'>
+                        <div className='md:grid xl:grid-cols-3 sm:grid-cols-2 gap-3 *:bg-[#E9E9E9] *:dark:bg-[#232323] *:rounded-xl *:flex *:items-center *:w-[100%] *:h-[100%] *:sm:justify-center *:justify-between *:px-5 *:transition-all *:duration-300 hidden'>
                             <div className='xl:col-span-2 skill-react'>
                                 <img src="/reactjs.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>React JS</p>

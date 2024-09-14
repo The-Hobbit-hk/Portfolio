@@ -7,8 +7,8 @@ function Projects() {
                 <h2 className='sm:text-3xl text-2xl font-[600] mb-4 md:text-left text-center'>
                     Projects
                 </h2>
-                <div className='grid lg:grid-cols-3 gap-5'>
-                    <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#282828] flex flex-col gap-5'>
+                <div className='grid lg:grid-cols-3 gap-5 *:transition-all duration-500'>
+                    <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#162032]/50 cursor-pointer flex flex-col gap-5 group'>
                         <img src="movie-watchlist.png" alt="Movie Watchlist" width='100%' className='rounded-xl w-[100%]' />
                         <div className='flex justify-between items-center'>
                             <div>
@@ -17,8 +17,8 @@ function Projects() {
                             </div>
                             <div>
                                 <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
-                                    <span class="material-symbols-outlined p-3 cursor-pointer text-neutral-700 dark:text-[#cfcfcf] dark:hover:text-blue-500 hover:bg-black/10 dark:hover:bg-white/10 rounded-full transition-all duration-100">
-                                        open_in_new
+                                    <span class="material-symbols-outlined p-3 cursor-pointer text-neutral-700 dark:text-[#cfcfcf] dark:hover:text-blue-500 hover:bg-black/10 dark:hover:bg-white/10 rounded-full transition-all duration-100 group-hover:translate-x-2 group-hover:-translate-y-2">
+                                        arrow_outward
                                     </span>
                                 </a>
                             </div>
@@ -38,7 +38,7 @@ function Projects() {
                             </p>
                         </div>
                     </div>
-                    <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#282828] flex flex-col gap-5'>
+                    <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#162032]/50 flex flex-col gap-5 group cursor-pointer'>
                         <img src="oneshop.png" alt="Oneshop" width='100%' className='rounded-xl w-[100%]' />
                         <div className='flex justify-between items-center'>
                             <div>
@@ -46,9 +46,9 @@ function Projects() {
                                 <p>Frontend Development</p>
                             </div>
                             <div>
-                                <a href="https://one-shop-psi.vercel.app/" target='_blank'>
-                                    <span class="material-symbols-outlined p-3 cursor-pointer text-neutral-700 dark:text-[#cfcfcf] dark:hover:text-blue-500 hover:bg-black/10 dark:hover:bg-white/10 rounded-full transition-all duration-100">
-                                        open_in_new
+                                <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
+                                    <span class="material-symbols-outlined p-3 cursor-pointer text-neutral-700 dark:text-[#cfcfcf] dark:hover:text-blue-500 hover:bg-black/10 dark:hover:bg-white/10 rounded-full transition-all duration-100 group-hover:translate-x-2 group-hover:-translate-y-2">
+                                        arrow_outward
                                     </span>
                                 </a>
                             </div>
@@ -66,7 +66,7 @@ function Projects() {
                             </p>
                         </div>
                     </div>
-                    <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#282828] flex flex-col gap-5'>
+                    <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#162032]/50 flex flex-col gap-5'>
                         <img src="oneshop.png" alt="Oneshop" width='100%' className='rounded-xl w-[100%]' />
                         <div className='flex justify-between items-center'>
                             <div>
