@@ -3,7 +3,7 @@ import React from 'react'
 function Projects() {
     return ( 
         <>
-            <div className='py-8' id='exp'>
+            <div className='py-8 mb-40 scroll-mt-20' id='projects'>
                 <h2 className='sm:text-3xl text-2xl font-[600] mb-4 md:text-left text-center'>
                     Projects
                 </h2>
@@ -25,7 +25,7 @@ function Projects() {
                         </div>
                         <div>
                             <p>Tech Stack</p>
-                            <div className='mt-1 flex gap-2 flex-wrap *:bg-white/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                            <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
                                 <div><p>React JS</p></div>
                                 <div><p>Redux</p></div>
                                 <div><p>Javascript</p></div>
@@ -55,7 +55,7 @@ function Projects() {
                         </div>
                         <div>
                             <p>Tech Stack</p>
-                            <div className='mt-1 flex gap-2 flex-wrap *:bg-white/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                            <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
                                 <div><p>Javascript</p></div>
                                 <div><p>Tailwind CSS</p></div>
                                 <div><p>HTML</p></div>
@@ -76,7 +76,7 @@ function Projects() {
                         </div>
                         <div>
                             <p>Tech Stack</p>
-                            <div className='mt-1 flex gap-2 flex-wrap *:bg-white/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                            <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
                                 <div><p>PHP</p></div>
                                 <div><p>Javascript</p></div>
                                 <div><p>Bootstrap</p></div>
