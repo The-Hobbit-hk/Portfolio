@@ -7,6 +7,7 @@ function Header() {
 
     let [themeIcon, setThemeIcon] = useState(true);
     let [showMenu, setShowMenu] = useState(false);
+    let [right, setRight] = useState('-right-96');
 
     let handleThemeChange = () => {
         if(document.documentElement.classList.contains('dark')){
@@ -20,6 +21,7 @@ function Header() {
 
     let handleMenu = () => {
         setShowMenu(!showMenu);
+        setRight(showMenu ? '-right-96' : 'right-5');
     }
 
     return (
@@ -60,26 +62,23 @@ function Header() {
                         menu
                     </span>
                 </div>
-                <div className={`absolute right-5 top-20`}>
-                    {
-                        showMenu &&
-                        <div className='space-y-3 flex flex-col'>
-                            <a href="#">
-                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>
-                                    Home
-                                </p>
-                            </a>
-                            <a href="#experience">
-                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Experience</p>
-                            </a>
-                            <a href="#projects">
-                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Projects</p>
-                            </a>
-                            <a href="#contact">
-                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Contact</p>
-                            </a>
-                        </div>
-                    }
+                <div className={`absolute ${right} top-20 transition-all duration-300`}>
+                    <div className='space-y-3 flex flex-col transition-all duration-300'>
+                        <a href="#" onClick={handleMenu}>
+                            <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>
+                                Home
+                            </p>
+                        </a>
+                        <a href="#experience" onClick={handleMenu}>
+                            <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Experience</p>
+                        </a>
+                        <a href="#projects" onClick={handleMenu}>
+                            <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Projects</p>
+                        </a>
+                        <a href="#contact" onClick={handleMenu}>
+                            <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Contact</p>
+                        </a>
+                    </div>
                 </div>
             </nav>
         </>
