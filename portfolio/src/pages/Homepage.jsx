@@ -7,7 +7,7 @@ function Homepage() {
     return (
         <>
             <div className='md:px-40 px-5 text-left md:mt-10 dark:text-neutral-300 text-[#343434] font-inter'>
-                <div className='grid lg:grid-cols-2 gap-2'>
+                <div className='grid lg:grid-cols-2 gap-5'>
                     <div>
                         <div className='md:gap-5 gap-3 items-center flex flex-col md:items-start md:text-left text-center '>
                             <img src="/profile.jpg" alt="Profile Picture" width='100px' className='aspect-square object-cover rounded-full sm:w-[150px] w-[100px] p-1 border dark:border-neutral-300 border-[#343434] shadow-lg hover:scale-x-[-1] transition-all duration-300' />
@@ -20,7 +20,7 @@ function Homepage() {
                                 </h3>
                             </div>
                         </div>
-                        <div className='my-5 md:text-left text-center'>
+                        <div className='mt-5 md:text-left text-center'>
                             <p className='md:text-lg  tracking-wide'>
                                 With expertise in React JS, Javascript, HTML, CSS, Tailwind CSS, Bootstrap and SQL. I craft responsive, dynamic web applications. I deliver seamless user experiences while ensuring robust, scalable backend solutions.
                             </p>
