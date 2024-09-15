@@ -1,18 +1,18 @@
-import React from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
+import {React, useState} from 'react'
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { MdOutlineDarkMode } from "react-icons/md";
+import { MdOutlineDarkMode, MdOutlineLightMode  } from "react-icons/md";
 
 
 function Header() {
 
-    let path = useLocation();
-    let pathname = path.pathname;
+    let [themeIcon, setThemeIcon] = useState(true);
 
     let handleThemeChange = () => {
         if(document.documentElement.classList.contains('dark')){
+            setThemeIcon(false);
             document.documentElement.classList.remove('dark')
         }else{
+            setThemeIcon(true);
             document.documentElement.classList.add('dark');
         }
     }
@@ -35,16 +35,19 @@ function Header() {
                     </a>
                 </div>
                 <div className='absolute flex md:right-5 items-center gap-3'>
-                    <a href="https://www.linkedin.com/in/omkarbokil/">
-                        <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
-                            <FaLinkedinIn className='text-lg text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] ' />
-                        </div>
+                    <a href="https://www.linkedin.com/in/omkarbokil/" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                        <FaLinkedinIn className='text-lg text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] ' />
                     </a>
-                    <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
+                    <a href="https://github.com/omkarbokil" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                         <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
-                    </div>
+                    </a>
                     <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer' onClick={handleThemeChange}>
-                        <MdOutlineDarkMode className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-xl' />
+                        {
+                            themeIcon ?
+                            <MdOutlineDarkMode className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-xl' />
+                            :
+                            <MdOutlineLightMode className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-xl' />
+                        }
                     </div>
                 </div>
                 <div className='md:hidden absolute right-5'>
