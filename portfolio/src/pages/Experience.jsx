@@ -12,7 +12,8 @@ function Experience() {
                     <div className='flex lg:flex-row flex-col gap-5 justify-between items-center'>
                         <p className='text-md'>
                             Shrisoft System Solutions - Software Developer<br/>
-                            <small>Oct 2022 - June 2024</small>
+                            {/* <small>Oct 2022 - June 2024</small> */}
+                            <small>Oct 2022 - Present</small>
                         </p>
                         <div className='mt-1 flex gap-2 justify-center flex-wrap *:dark:bg-white/10 *:bg-black/10 *:text-[#666666] *:dark:text-neutral-300 *:px-3 *:py-1 *:rounded-full *:text-sm'>
                             <div><p>React JS</p></div>

@@ -97,7 +97,7 @@ function Contact() {
                             <div className='mb-4'>
                                 <textarea type="text" id='contact-description' name='description' className='bg-transparent outline-none border-b dark:border-white border-[#b2b2b2] p-1 resize-none w-[100%]' placeholder='Add your message here' rows='4' onChange={handleChange}></textarea>
                             </div>
-                            <div className='flex md:flex-row flex-col gap-5 items-center'>
+                            <div className='flex lg:flex-row flex-col gap-5 items-center'>
                                 <button className='border rounded-xl px-5 py-2 dark:bg-white dark:text-[#343434] bg-black text-white transition-all duration-300 dark:border-white border-[#b2b2b2] flex items-center w-32 h-11 justify-center'>
                                     {
                                         isSubmit ? 
@@ -114,7 +114,7 @@ function Contact() {
                                 <div>
                                     {
                                         message ?
-                                        <p className='px-5 py-2 bg-green-700 rounded-xl h-11 text-sm flex items-center text-white'>Thank you for your message. I will get back to you soon.</p>
+                                        <p className='px-5 py-2 bg-green-700 rounded-xl md:h-11 text-sm text-center text-white'>Thank you for your message. I will get back to you soon.</p>
                                         :
                                         ''
                                     }
