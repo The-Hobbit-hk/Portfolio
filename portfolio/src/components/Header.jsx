@@ -6,6 +6,7 @@ import { MdOutlineDarkMode, MdOutlineLightMode  } from "react-icons/md";
 function Header() {
 
     let [themeIcon, setThemeIcon] = useState(true);
+    let [showMenu, setShowMenu] = useState(false);
 
     let handleThemeChange = () => {
         if(document.documentElement.classList.contains('dark')){
@@ -15,6 +16,10 @@ function Header() {
             setThemeIcon(true);
             document.documentElement.classList.add('dark');
         }
+    }
+
+    let handleMenu = () => {
+        setShowMenu(!showMenu);
     }
 
     return (
@@ -51,9 +56,42 @@ function Header() {
                     </div>
                 </div>
                 <div className='md:hidden absolute right-5'>
-                    <span className="material-symbols-outlined bg-white/10 rounded-full p-2 cursor-pointer text-[#eeeeee]">
+                    <span className="material-symbols-outlined rounded-full p-2 cursor-pointer dark:bg-[#232323] bg-[#E9E9E9] dark:text-neutral-300 text-[#343434]" onClick={handleMenu}>
                         menu
                     </span>
+                </div>
+                <div className={`absolute right-5 top-20`}>
+                    {
+                        showMenu &&
+                        <div className='space-y-3 flex flex-col'>
+                            <a href="#">
+                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>
+                                    Home
+                                </p>
+                            </a>
+                            <a href="#experience">
+                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Experience</p>
+                            </a>
+                            <a href="#projects">
+                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Projects</p>
+                            </a>
+                            <a href="#contact">
+                                <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Contact</p>
+                            </a>
+                            <div className='group rounded-full cursor-pointer inline-flex items-center justify-center' onClick={handleThemeChange}>
+                                {
+                                    themeIcon ?
+                                    <span className='material-symbols-outlined bg-[#fdca40] p-3 rounded-full text-[#323232] transition-all duration-300'>
+                                        dark_mode
+                                    </span>
+                                    :
+                                    <span className='material-symbols-outlined bg-[#fdca40] p-3 rounded-full text-[#323232] transition-all duration-300'>
+                                        light_mode
+                                    </span>
+                                }
+                            </div>
+                        </div>
+                    }
                 </div>
             </nav>
         </>
