@@ -8,6 +8,10 @@
     @apply transition-colors duration-300;
 }
 
+html {
+    overflow-x: hidden !important;
+}
+
 .skill-react:hover img {
     filter: drop-shadow(0 0 5px #61dafbaa);
 }
