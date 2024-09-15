@@ -19,7 +19,7 @@ function Header() {
 
     return (
         <>
-            <nav className='flex justify-center py-10 sm:px-40 items-center font-sora sticky top-0 bg-white dark:bg-[#181818] transition-all duration-300 z-[100]'>
+            <nav className='flex justify-center py-10 sm:px-40 items-center font-inter sticky top-0 bg-white dark:bg-[#181818] transition-all duration-300 z-[100]'>
                 <div className='space-x-3 md:inline-block hidden'>
                     <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
                         Home
@@ -30,7 +30,7 @@ function Header() {
                     <a href="#projects" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
                         Projects
                     </a>
-                    <a href="#" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
+                    <a href="#contact" className='px-5 py-2 rounded-full text-neutral-700 dark:text-[#cfcfcf] hover:bg-black/10 dark:hover:bg-white/10'>
                         Contact
                     </a>
                 </div>

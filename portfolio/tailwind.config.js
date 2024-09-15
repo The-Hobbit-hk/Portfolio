@@ -9,7 +9,8 @@ export default {
         extend: {},
         fontFamily: {
             'sora': ['Sora'],
-            'raleway': ['Raleway']
+            'raleway': ['Raleway'],
+            'inter': ['Inter']
         }
     },
     plugins: [],
