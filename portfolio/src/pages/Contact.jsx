@@ -8,9 +8,9 @@ function Contact() {
                     Contact
                 </h2>
                 <div className='grid xl:grid-cols-2 justify-center'>
-                    <div className='flex items-center sm:text-3xl text-[20px]'>
+                    <div className='flex items-center sm:text-3xl text-[17px]'>
                         <a href="" className='flex items-center group dark:hover:bg-[#232323] hover:bg-black/10 rounded-xl sm:p-10 transition-all duration-300 p-3 sm:mb-0 mb-4'>
-                            <p>omkarbokil22@gmail.com</p>
+                            <p>omkar.frontend.developer.com</p>
                             <span class="material-symbols-outlined p-3 transition-all duration-300 group-hover:translate-x-2 group-hover:-translate-y-2">
                                 arrow_outward
                             </span>
