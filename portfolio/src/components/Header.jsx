@@ -35,14 +35,16 @@ function Header() {
                     </a>
                 </div>
                 <div className='absolute flex md:right-5 items-center gap-3'>
-                    <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
+                    <a href="https://www.linkedin.com/in/omkarbokil/">
+                        <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
                             <FaLinkedinIn className='text-lg text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] ' />
                         </div>
-                        <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
-                            <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
-                        </div>
-                        <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer' onClick={handleThemeChange}>
-                            <MdOutlineDarkMode className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-xl' />
+                    </a>
+                    <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer'>
+                        <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
+                    </div>
+                    <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer' onClick={handleThemeChange}>
+                        <MdOutlineDarkMode className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-xl' />
                     </div>
                 </div>
                 <div className='md:hidden absolute right-5'>
