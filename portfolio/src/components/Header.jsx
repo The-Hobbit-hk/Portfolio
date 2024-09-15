@@ -78,18 +78,6 @@ function Header() {
                             <a href="#contact">
                                 <p className='px-5 py-2 font-[500] rounded-lg space-y-3 bg-[#fdca40] text-[#323232]'>Contact</p>
                             </a>
-                            <div className='group rounded-full cursor-pointer inline-flex items-center justify-center' onClick={handleThemeChange}>
-                                {
-                                    themeIcon ?
-                                    <span className='material-symbols-outlined bg-[#fdca40] p-3 rounded-full text-[#323232] transition-all duration-300'>
-                                        dark_mode
-                                    </span>
-                                    :
-                                    <span className='material-symbols-outlined bg-[#fdca40] p-3 rounded-full text-[#323232] transition-all duration-300'>
-                                        light_mode
-                                    </span>
-                                }
-                            </div>
                         </div>
                     }
                 </div>
