@@ -14,7 +14,7 @@ function Experience() {
                             Shrisoft System Solutions - Software Developer<br/>
                             <small>Oct 2022 - June 2024</small>
                         </p>
-                        <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                        <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:text-[#666666] *:dark:text-neutral-300 *:px-3 *:py-1 *:rounded-full *:text-sm'>
                             <div><p>React JS</p></div>
                             <div><p>Javascript</p></div>
                             <div><p>Tailwind CSS</p></div>

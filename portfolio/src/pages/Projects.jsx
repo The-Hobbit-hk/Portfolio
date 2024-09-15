@@ -26,7 +26,7 @@ function Projects() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                                    <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm *:text-[#666666] *:dark:text-neutral-300'>
                                         <div><p>React JS</p></div>
                                         <div><p>Redux</p></div>
                                         <div><p>Javascript</p></div>
@@ -60,7 +60,7 @@ function Projects() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                                    <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm *:text-[#666666] *:dark:text-neutral-300'>
                                         <div><p>Javascript</p></div>
                                         <div><p>Tailwind CSS</p></div>
                                         <div><p>HTML</p></div>
@@ -91,7 +91,7 @@ function Projects() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                                    <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm *:text-[#666666] *:dark:text-neutral-300'>
                                         <div><p>PHP</p></div>
                                         <div><p>Javascript</p></div>
                                         <div><p>Bootstrap</p></div>
