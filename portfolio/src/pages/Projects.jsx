@@ -75,7 +75,7 @@ function Projects() {
                     </a>
                     <a href="#">
                     <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#162032]/50 hover:bg-[#fdca40] transition-all duration-300 cursor-pointer flex xl:flex-row flex-col xl:items-center gap-5 group'>
-                            <img src="movie-watchlist.png" alt="Movie Watchlist" width='50%' className='rounded-xl xl:w-[25%] md:w-[40%] w-[100%]' />
+                            <img src="noteit.png" alt="Note It" width='50%' className='rounded-xl xl:w-[25%] md:w-[40%] w-[100%]' />
                             <div className='grid gap-3 w-[100%]'>
                                 <div className='flex justify-between items-center'>
                                     <div>
