@@ -69,7 +69,7 @@ function Projects() {
                                 <div>
                                     <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm *:text-[#666666] *:dark:text-neutral-300'>
                                         <div><p>Javascript</p></div>
-                                        <div><p>Tailwin</p></div>
+                                        <div><p>Tailwind CSS</p></div>
                                         <div><p>HTML</p></div>
                                         <div><p>CSS</p></div>
                                     </div>
