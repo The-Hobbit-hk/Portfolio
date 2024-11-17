@@ -112,7 +112,7 @@ function Homepage() {
                 {/* Projects */}
                 <Projects />
                 {/* Figma */}
-                {/* <Figma /> */}
+                <Figma />
                 {/* Contact */}
                 <Contact />
             </div>
