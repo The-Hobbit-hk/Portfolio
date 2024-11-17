@@ -2,6 +2,7 @@ import React from 'react'
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
+import Figma from './Figma';
 
 function Homepage() {
     return (
@@ -110,6 +111,8 @@ function Homepage() {
                 <Experience />
                 {/* Projects */}
                 <Projects />
+                {/* Figma */}
+                {/* <Figma /> */}
                 {/* Contact */}
                 <Contact />
             </div>

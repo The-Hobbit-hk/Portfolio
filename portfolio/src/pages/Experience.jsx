@@ -9,13 +9,13 @@ function Experience() {
             </h2>
             <div className='grid gap-5'>
                 <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323]'>
-                    <div className='flex lg:flex-row flex-col justify-between items-center'>
-                        <p className='text-md'>
-                            SoftwareGen Technologies - Frontend Developer<br/>
+                    <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
+                        <p className='text-md overflow-hidden'>
+                        Frontend Developer • <span className='font-semibold'>SoftwareGen Technologies</span><br/>
                             <small>July 2024 - Present</small>
                         </p>
                         <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
-                            <div><p>React JS</p></div>
+                            <div><p>React</p></div>
                             <div><p>Redux</p></div>
                             <div><p>Javascript</p></div>
                             <div><p>Tailwind CSS</p></div>
@@ -25,14 +25,14 @@ function Experience() {
                     </div>
                 </div>
                 <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323]'>
-                    <div className='flex lg:flex-row flex-col gap-5 justify-between items-center'>
+                    <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
                         <p className='text-md'>
-                            Shrisoft System Solutions - Software Developer<br/>
+                        Software Developer • <span className='font-semibold'>Shrisoft System Solutions</span><br/>
                             <small>Oct 2022 - June 2024</small>
                             {/* <small>Oct 2022 - Present</small> */}
                         </p>
-                        <div className='mt-1 flex gap-2 justify-center flex-wrap *:dark:bg-white/10 *:bg-black/10 *:text-[#666666] *:dark:text-neutral-300 *:px-3 *:py-1 *:rounded-full *:text-sm'>
-                            <div><p>React JS</p></div>
+                        <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
+                            <div><p>React</p></div>
                             <div><p>Javascript</p></div>
                             <div><p>Tailwind CSS</p></div>
                             <div><p>Bootstrap</p></div>

@@ -1,11 +1,10 @@
 import React from 'react'
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { MdOutlineDarkMode } from "react-icons/md";
 
 function Footer() {
     return (
         <>
-            <div className='md:px-40 px-5 py-10 md:text-left text-center font-inter dark:text-neutral-300 text-[#343434] flex md:flex-row flex-col items-center gap-5'>
+            <div className='md:px-40 px-5 py-10 pt-20 md:text-left text-center font-inter dark:text-neutral-300 text-[#343434] flex md:flex-row flex-col items-center gap-5'>
                 <p className='text-sm'>Designed in Figma. Coded in Visual Studio Code. Built with React JS and Tailwind CSS. Deployed with Vercel.</p>
                 <div className='flex gap-2'>
                     <a href="https://www.linkedin.com/in/omkarbokil/" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
