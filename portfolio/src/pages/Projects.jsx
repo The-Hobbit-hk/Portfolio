@@ -92,7 +92,7 @@ function Projects() {
                                         <p className='text-sm'>Frontend Development</p>
                                     </div>
                                     <div className='flex items-center gap-2'>
-                                        <a href="https://github.com/The-Hobbit-hk/OneShop" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                                        <a href="https://github.com/The-Hobbit-hk/EcomWeb" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                                             <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
                                         </a>
                                         <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
