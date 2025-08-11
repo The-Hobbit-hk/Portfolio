@@ -11,7 +11,7 @@ function Experience() {
                 <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323]'>
                     <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
                         <p className='text-md overflow-hidden'>
-                        Frontend Developer • <span className='font-semibold'>Axonator</span><br/>
+                        Junior Full Stack Developer • <span className='font-semibold'>Axonator</span><br/>
                             <small>July 2024 - Present</small>
                         </p>
                         <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
@@ -26,7 +26,7 @@ function Experience() {
                 <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323]'>
                     <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
                         <p className='text-md'>
-                        Software Developer Intern • <span className='font-semibold'>Axonator</span><br/>
+                        Software Engineer Intern • <span className='font-semibold'>Axonator</span><br/>
                             <small>January 2024 - June 2024</small>
                             {/* <small>Oct 2022 - Present</small> */}
                         </p>
