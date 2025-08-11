@@ -9,7 +9,7 @@ function Projects() {
                     Projects
                 </h2>
                 <div className='grid gap-5'>
-                    <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
+                    {/* <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
                         <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#fff]/10 hover:bg-black/20 transition-all duration-300 cursor-pointer flex xl:flex-row flex-col xl:items-center gap-5 group'>
                             <img src="movie-watchlist.png" alt="Movie Watchlist" className='rounded-xl xl:w-[25%] md:w-[40%] w-[100%]' />
                             <div className='grid gap-3 w-[100%]'>
@@ -19,7 +19,7 @@ function Projects() {
                                         <p className='text-sm'>Frontend and Backend Development</p>
                                     </div>
                                     <div className='flex items-center gap-2'>
-                                        <a href="https://github.com/omkarbokil/MovieWatchlist/tree/main/authenticate" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                                        <a href="https://github.com/The-Hobbit-hk/MovieWatchlist/tree/main/authenticate" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                                             <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
                                         </a>
                                         <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
@@ -34,7 +34,7 @@ function Projects() {
                                         <div><p>React</p></div>
                                         <div><p>Redux</p></div>
                                         <div><p>Javascript</p></div>
-                                        <div><p>Tailwind CSS</p></div>
+                                        <div><p>JAVA</p></div>
                                         <div><p>HTML</p></div>
                                         <div><p>CSS</p></div>
                                         <div><p>Firebase</p></div>
@@ -45,8 +45,8 @@ function Projects() {
                                     </p>
                             </div>
                         </div>
-                    </a>
-                    <a href="https://chromewebstore.google.com/detail/quick-word-meaning/cfgkgnlgekkdnhmehpdkebflakhjibkg?utm_source=ext_app_menu" target='_blank'>
+                    </a> */}
+                    {/* <a href="https://chromewebstore.google.com/detail/quick-word-meaning/cfgkgnlgekkdnhmehpdkebflakhjibkg?utm_source=ext_app_menu" target='_blank'>
                     <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#fff]/10 hover:bg-black/20 transition-all duration-300 cursor-pointer flex xl:flex-row flex-col xl:items-center gap-5 group'>
                             <img src="qwm.png" alt="Quick Word Meaning" width='50%' className='rounded-xl xl:w-[25%] md:w-[40%] w-[100%]' />
                             <div className='grid gap-3 w-[100%]'>
@@ -56,7 +56,7 @@ function Projects() {
                                         <p className='text-sm'>Frontend and Backend Development</p>
                                     </div>
                                     <div className='flex items-center gap-2'>
-                                        <a href="https://github.com/omkarbokil/QuickWordMeaning-ChromeExtension" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                                        <a href="https://github.com/The-Hobbit-hk/QuickWordMeaning-ChromeExtension" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                                             <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
                                         </a>
                                         <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
@@ -71,7 +71,7 @@ function Projects() {
                                         <div><p>React</p></div>
                                         <div><p>Chrome Extension API</p></div>
                                         <div><p>Javascript</p></div>
-                                        <div><p>Tailwind CSS</p></div>
+                                        <div><p>JAVA</p></div>
                                         <div><p>HTML</p></div>
                                         <div><p>CSS</p></div>
                                     </div>
@@ -81,7 +81,7 @@ function Projects() {
                                     </p>
                             </div>
                         </div>
-                    </a>
+                    </a> */}
                     <a href="https://one-shop-psi.vercel.app/" target='_blank'>
                     <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#fff]/10 hover:bg-black/20 transition-all duration-300 cursor-pointer flex xl:flex-row flex-col xl:items-center gap-5 group'>
                             <img src="oneshop.png" alt="One Shop" width='50%' className='rounded-xl xl:w-[25%] md:w-[40%] w-[100%]' />
@@ -92,7 +92,7 @@ function Projects() {
                                         <p className='text-sm'>Frontend Development</p>
                                     </div>
                                     <div className='flex items-center gap-2'>
-                                        <a href="https://github.com/omkarbokil/OneShop" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                                        <a href="https://github.com/The-Hobbit-hk/OneShop" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                                             <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
                                         </a>
                                         <a href="https://movie-watchlist-black.vercel.app/" target='_blank'>
@@ -105,7 +105,7 @@ function Projects() {
                                 <div>
                                     <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm *:text-[#323232] *:dark:text-neutral-300'>
                                         <div><p>Javascript</p></div>
-                                        <div><p>Tailwind CSS </p></div>
+                                        <div><p>JAVA </p></div>
                                         <div><p>HTML</p></div>
                                         <div><p>CSS</p></div>
                                     </div>
@@ -116,7 +116,7 @@ function Projects() {
                             </div>
                         </div>
                     </a>
-                    <a href="#">
+                    {/* <a href="#">
                         <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323] dark:hover:bg-[#fff]/10 hover:bg-black/20 transition-all duration-300 cursor-pointer flex xl:flex-row flex-col xl:items-center gap-5 group'>
                             <img src="noteit.png" alt="Note It" width='50%' className='rounded-xl xl:w-[25%] md:w-[40%] w-[100%]' />
                             <div className='grid gap-3 w-[100%]'>
@@ -124,7 +124,7 @@ function Projects() {
                                     <div>
                                         <p className='text-lg'>NoteIt</p>
                                         <p className='text-sm'>Frontend and Backend Development</p>
-                                    </div>
+                                    </div> */}
                                     {/* <div>
                                         <a href="#">
                                             <span class="material-symbols-outlined p-3 cursor-pointer text-neutral-700 dark:text-[#cfcfcf] dark:hover:text-blue-500 hover:bg-black/10 dark:hover:bg-white/10 rounded-full transition-all duration-300 group-hover:translate-x-2 group-hover:-translate-y-2">
@@ -132,7 +132,7 @@ function Projects() {
                                             </span>
                                         </a>
                                     </div> */}
-                                </div>
+                                {/* </div>
                                 <div>
                                     <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm *:text-[#323232] *:dark:text-neutral-300'>
                                         <div><p>PHP</p></div>
@@ -142,13 +142,13 @@ function Projects() {
                                         <div><p>CSS</p></div>
                                         <div><p>MySQL</p></div>
                                     </div>
-                                </div>
-                                    <p className='text-sm'>
+                                </div> */}
+                                    {/* <p className='text-sm'>
                                     Notes Management web app with features for creating and managing notes, to-dos, along with additional in-built tools.
                                     </p>
                             </div>
                         </div>
-                    </a>
+                    </a> */}
                     
                 </div>
             </div>

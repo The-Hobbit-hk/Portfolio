@@ -42,10 +42,10 @@ function Header() {
                     </a>
                 </div>
                 <div className='absolute flex md:right-5 items-center gap-3'>
-                    <a href="https://www.linkedin.com/in/omkarbokil/" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                    <a href="https://www.linkedin.com/in/harshvardhan-kale-9197a01b4/" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                         <FaLinkedinIn className='text-lg text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] ' />
                     </a>
-                    <a href="https://github.com/omkarbokil" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
+                    <a href="https://github.com/The-Hobbit-hk" target='_blank' className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10'>
                         <FaGithub className='text-neutral-700 dark:text-[#cfcfcf] dark:group-hover:text-[#eeeeee] text-lg' />
                     </a>
                     <div className='group rounded-full p-3 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer' onClick={handleThemeChange}>

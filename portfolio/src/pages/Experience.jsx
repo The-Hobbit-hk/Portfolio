@@ -11,15 +11,14 @@ function Experience() {
                 <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323]'>
                     <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
                         <p className='text-md overflow-hidden'>
-                        Frontend Developer • <span className='font-semibold'>SoftwareGen Technologies</span><br/>
+                        Frontend Developer • <span className='font-semibold'>Axonator</span><br/>
                             <small>July 2024 - Present</small>
                         </p>
                         <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
-                            <div><p>React</p></div>
-                            <div><p>Redux</p></div>
+                            
                             <div><p>Javascript</p></div>
-                            <div><p>Tailwind CSS</p></div>
-                            <div><p>Bootstrap</p></div>
+                            <div><p>JAVA</p></div>
+                            <div><p>SQL</p></div>
                             <div><p>HTML & CSS</p></div>
                         </div>
                     </div>
@@ -27,17 +26,17 @@ function Experience() {
                 <div className='rounded-xl p-4 bg-[#E9E9E9] dark:bg-[#232323]'>
                     <div className='flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
                         <p className='text-md'>
-                        Software Developer • <span className='font-semibold'>Shrisoft System Solutions</span><br/>
-                            <small>Oct 2022 - June 2024</small>
+                        Software Developer Intern • <span className='font-semibold'>Axonator</span><br/>
+                            <small>January 2024 - June 2024</small>
                             {/* <small>Oct 2022 - Present</small> */}
                         </p>
                         <div className='mt-1 flex gap-2 flex-wrap *:dark:bg-white/10 *:bg-black/10 *:px-3 *:py-1 *:rounded-full *:text-sm'>
-                            <div><p>React</p></div>
+                            
                             <div><p>Javascript</p></div>
-                            <div><p>Tailwind CSS</p></div>
-                            <div><p>Bootstrap</p></div>
+                            <div><p>JAVA</p></div>
+                            
                             <div><p>HTML & CSS</p></div>
-                            <div><p>Oracle APEX</p></div>
+                            
                             <div><p>SQL</p></div>
                         </div>
                     </div>

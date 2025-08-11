@@ -79,8 +79,8 @@ function Contact() {
                 </h2>
                 <div className='grid xl:grid-cols-2 justify-center'>
                     <div className='flex items-center sm:text-3xl text-[17px]'>
-                        <a href="mailto:omkar.frontenddev@gmail.com" className='flex items-center group dark:hover:bg-[#232323] hover:bg-black/10 rounded-xl sm:p-10 transition-all duration-300 p-3 sm:mb-0 mb-4'>
-                            <p>omkar.frontenddev@gmail.com</p>
+                        <a href="mailto:harsh.kale2000@gmail.com" className='flex items-center group dark:hover:bg-[#232323] hover:bg-black/10 rounded-xl sm:p-10 transition-all duration-300 p-3 sm:mb-0 mb-4'>
+                            <p>harsh.kale2000@gmail.com</p>
                             <span class="material-symbols-outlined p-3 transition-all duration-300 group-hover:translate-x-2 group-hover:-translate-y-2">
                                 arrow_outward
                             </span>

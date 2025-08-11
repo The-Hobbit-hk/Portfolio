@@ -11,19 +11,19 @@ function Homepage() {
                 <div className='grid lg:grid-cols-2 gap-5'>
                     <div>
                         <div className='md:gap-5 gap-3 items-center flex flex-col md:items-start md:text-left text-center '>
-                            <img src="/profile.jpg" alt="Profile Picture" width='100px' className='aspect-square object-cover rounded-full sm:w-[150px] w-[100px] p-1 border dark:border-neutral-300 border-[#343434] shadow-lg hover:scale-x-[-1] transition-all duration-300' />
+                            <img src="/me.jpg" alt="Profile Picture" width='100px' className='aspect-square object-cover rounded-full sm:w-[150px] w-[100px] p-1 border dark:border-neutral-300 border-[#343434] shadow-lg hover:scale-x-[-1] transition-all duration-300' />
                             <div>
                                 <h1 class="sm:text-3xl text-2xl tracking-wide text-nowrap font-[500]">
-                                    Omkar Bokil<span class="text-[#fdca40] sm:text-5xl text-2xl">.</span>
+                                    Harshvardhan Kale<span class="text-[#fdca40] sm:text-5xl text-2xl">.</span>
                                 </h1 >
                                 <h3 class="text-lg text-left">
-                                    Frontend Web Developer
+                                    Full Stack Developer
                                 </h3>
                             </div>
                         </div>
                         <div className='mt-5 md:text-left text-center'>
                             <p className='md:text-lg  tracking-wide'>
-                                With expertise in React JS, Javascript, HTML, CSS, Tailwind CSS, Bootstrap and SQL. I craft responsive, dynamic web applications. I deliver seamless user experiences while ensuring robust, scalable backend solutions.
+                            Innovative and results-driven Full Stack Developer with hands-on expertise in Java, Angular, .NET, and MySQL. Proven track record of delivering high-performance, user-centric applications while driving efficiency, security, and seamless API integrations. Passionate about turning ideas into impactful digital solutions.
                             </p>
                         </div>
                     </div>
@@ -31,12 +31,12 @@ function Homepage() {
                         <div className='md:grid xl:grid-cols-3 sm:grid-cols-2 gap-3 *:bg-[#E9E9E9] *:dark:bg-[#232323] *:rounded-xl *:flex *:items-center *:w-[100%] *:h-[100%] *:sm:justify-center *:justify-between *:px-5 *:transition-all *:duration-300 hidden'>
                             <div className='xl:col-span-2 skill-react'>
                                 <img src="/reactjs.png" alt="" width='100px' className='p-4'/>
-                                <p className='pr-5'>React JS</p>
+                                <p className='pr-5'>JAVA</p>
                             </div>
-                            <div className="skill-redux">
+                            {/* <div className="skill-redux">
                                 <img src="/redux-toolkit.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>Redux</p>
-                            </div>
+                            </div> */}
                             <div className="skill-javascript">
                                 <img src="/js.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>Javascript</p>
@@ -49,13 +49,13 @@ function Homepage() {
                                 <img src="/css.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>CSS</p>
                             </div>
-                            <div className="skill-bootstrap">
+                            {/* <div className="skill-bootstrap">
                                 <img src="/bootstrap.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>Bootstrap</p>
-                            </div>
+                            </div> */}
                             <div className='xl:col-span-2 skill-tailwind'>
                                 <img src="/tailwind.png" alt="" width='100px' className='p-4'/>
-                                <p className='pr-5'>Tailwind CSS</p>
+                                <p className='pr-5'>JAVA</p>
                             </div>
                             <div className='xl:col-span-2 skill-firebase'>
                                 <img src="/firebase.png" alt="" width='100px' className='p-4'/>
@@ -72,9 +72,9 @@ function Homepage() {
                             <div className='skill-react'>
                                 <img src="/reactjs.png" alt="" width='100px' className='p-4 min-w-[100px] min-h-[100px]'/>
                             </div>
-                            <div className="skill-redux">
+                            {/* <div className="skill-redux">
                                 <img src="/redux-toolkit.png" alt="" width='100px' className='p-4 min-w-[100px] min-h-[100px]'/>
-                            </div>
+                            </div> */}
                             <div className="skill-javascript">
                                 <img src="/js.png" alt="" width='100px' className='p-4 min-w-[100px] min-h-[100px]'/>
                                </div>
@@ -84,9 +84,9 @@ function Homepage() {
                             <div className="skill-css">
                                 <img src="/css.png" alt="" width='100px' className='p-4 min-w-[100px] min-h-[100px]'/>
                             </div>
-                            <div className="skill-bootstrap">
+                            {/* <div className="skill-bootstrap">
                                 <img src="/bootstrap.png" alt="" width='100px' className='p-4 min-w-[100px] min-h-[100px]'/>
-                              </div>
+                              </div> */}
                             <div className='skill-tailwind'>
                                 <img src="/tailwind.png" alt="" width='100px' className='p-4 min-w-[100px] min-h-[100px]'/>
     

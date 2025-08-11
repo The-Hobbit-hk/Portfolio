@@ -3,9 +3,9 @@ import React from 'react'
 function Figma() {
   return (
     <>
-        <div className='py-8 scroll-mt-20' id='figma'>
+        {/* <div className='py-8 scroll-mt-20' id='figma'>
             <h2 className='text-2xl font-[600] mb-4 md:text-left text-center'>
-                Figma Designs
+                Figma Designsss
             </h2>
             <div className='grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5'>
                 <div>
@@ -33,7 +33,7 @@ function Figma() {
                     </a>
                 </div>
             </div>
-        </div>
+        </div> */}
     </>
   )
 }
