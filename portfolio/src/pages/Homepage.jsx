@@ -11,7 +11,7 @@ function Homepage() {
                 <div className='grid lg:grid-cols-2 gap-5'>
                     <div>
                         <div className='md:gap-5 gap-3 items-center flex flex-col md:items-start md:text-left text-center '>
-                            <img src="/me.jpg" alt="Profile Picture" width='100px' className='aspect-square object-cover rounded-full sm:w-[150px] w-[100px] p-1 border dark:border-neutral-300 border-[#343434] shadow-lg hover:scale-x-[-1] transition-all duration-300' />
+                            <img src="/me.jpg.jpg" alt="Profile Picture" width='100px' className='aspect-square object-cover rounded-full sm:w-[150px] w-[100px] p-1 border dark:border-neutral-300 border-[#343434] shadow-lg hover:scale-x-[-1] transition-all duration-300' />
                             <div>
                                 <h1 class="sm:text-3xl text-2xl tracking-wide text-nowrap font-[500]">
                                     Harshvardhan Kale<span class="text-[#fdca40] sm:text-5xl text-2xl">.</span>
