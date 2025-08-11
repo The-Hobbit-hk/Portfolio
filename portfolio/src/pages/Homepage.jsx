@@ -55,7 +55,7 @@ function Homepage() {
                             </div> */}
                             <div className='xl:col-span-2 skill-tailwind'>
                                 <img src="/tailwind.png" alt="" width='100px' className='p-4'/>
-                                <p className='pr-5'>JAVA</p>
+                                <p className='pr-5'>Angular</p>
                             </div>
                             <div className='xl:col-span-2 skill-firebase'>
                                 <img src="/firebase.png" alt="" width='100px' className='p-4'/>
