@@ -30,7 +30,7 @@ function Homepage() {
                     <div>
                         <div className='md:grid xl:grid-cols-3 sm:grid-cols-2 gap-3 *:bg-[#E9E9E9] *:dark:bg-[#232323] *:rounded-xl *:flex *:items-center *:w-[100%] *:h-[100%] *:sm:justify-center *:justify-between *:px-5 *:transition-all *:duration-300 hidden'>
                             <div className='xl:col-span-2 skill-react'>
-                                <img src="/reactjs.png" alt="" width='100px' className='p-4'/>
+                                <img src="/JAVA.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>JAVA</p>
                             </div>
                             {/* <div className="skill-redux">
@@ -54,7 +54,7 @@ function Homepage() {
                                 <p className='pr-5'>Bootstrap</p>
                             </div> */}
                             <div className='xl:col-span-2 skill-tailwind'>
-                                <img src="/tailwind.png" alt="" width='100px' className='p-4'/>
+                                <img src="/ANGULAR.png" alt="" width='100px' className='p-4'/>
                                 <p className='pr-5'>Angular</p>
                             </div>
                             <div className='xl:col-span-2 skill-firebase'>
