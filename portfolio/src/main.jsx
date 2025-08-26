@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider, createRoutesFromElements, Router, 
 import Layout from './components/Layout'
 import Homepage from './pages/Homepage'
 import './index.css'
-import { Analytics } from "@vercel/analytics/next"
+// import { Analytics } from "@vercel/analytics/next"
 const router = createBrowserRouter(
     createRoutesFromElements(
         <>
